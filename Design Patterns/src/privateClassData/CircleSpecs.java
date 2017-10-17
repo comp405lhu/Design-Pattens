@@ -25,7 +25,7 @@ public class CircleSpecs {
 		String[] str = {"This", "is", "a", "circle"};
 		String s1 = "";
 		for (String s : str)
-			s1 += s;
+			s1 += s + " ";
 		return radius + ":" + "(" + center.x + "," + center.y + ")" + "-" + s1;
 	}
 
