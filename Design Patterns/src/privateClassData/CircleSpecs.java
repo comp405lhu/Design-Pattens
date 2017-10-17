@@ -24,5 +24,14 @@ public class CircleSpecs {
 	public String toString() {
 		return "Circle(radius: " + radius + ", center: " + origin + ");";
 	}
+	
+	@Override
+	public String toString() {
+		String str ="";
+		for (int i = 0; i < 2; i++) {
+			str += i;
+		}
+		return radius+":"+"("+center.x+","+center.y+")" + "-"+ str;
+	}
 
 }
