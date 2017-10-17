@@ -22,13 +22,11 @@ public class CircleSpecs {
 
 	@Override
 	public String toString() {
-		String str = "";
-		int i = 0;
-		while (i < 20) {
-			str += i;
-			i++;
-		}
-		return radius + ":" + "(" + center.x + "," + center.y + ")" + "-" + str;
+		String[] str = {"This", "is", "a", "circle"};
+		String s1 = "";
+		for (String s : str)
+			s1 += s;
+		return radius + ":" + "(" + center.x + "," + center.y + ")" + "-" + s1;
 	}
 
 }
