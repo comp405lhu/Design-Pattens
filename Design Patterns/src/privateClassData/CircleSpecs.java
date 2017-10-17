@@ -23,7 +23,7 @@ public class CircleSpecs {
 	@Override
 	public String toString() {
 		String str ="";
-		for (int i = 0; i < 2; i++) {
+		for (int i = 0; i < 20; i++) {
 			str += i;
 		}
 		return radius+":"+"("+center.x+","+center.y+")" + "-"+ str;
