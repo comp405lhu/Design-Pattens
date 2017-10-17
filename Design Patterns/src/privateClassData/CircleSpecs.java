@@ -19,5 +19,10 @@ public class CircleSpecs {
 		this.radius = radius;
 		this.center = center;
 	}
+	
+	@Override
+	public String toString() {
+		return radius+":"+"("+center.x+","+center.y+")";
+	}
 
 }
