@@ -26,6 +26,7 @@ public class CircleSpecs {
 		int i = 0;
 		while (i < 2) {
 			
+			
 			str += i;
 			i++;
 		}
