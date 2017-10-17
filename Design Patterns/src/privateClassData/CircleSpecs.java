@@ -4,25 +4,25 @@ import java.awt.Point;
 
 public class CircleSpecs {
 	
-	private double r;
-	private Point p;
+	private double radius;
+	private Point origin;
 
 	public double getRadius() {
-		return r;
+		return radius;
 	}
 
 	public Point getCenter() {
-		return p;
+		return origin;
 	}
 
 	public CircleSpecs(double radius, Point center) {
-		this.r = radius;
-		this.p = center;
+		this.radius = radius;
+		this.origin = center;
 	}
 	
 	@Override
 	public String toString() {
-		return "Circle(radius: " + r + ", center: " + p + ");";
+		return "Circle(radius: " + radius + ", center: " + origin + ");";
 	}
 
 }
