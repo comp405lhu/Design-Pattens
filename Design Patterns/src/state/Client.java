@@ -13,7 +13,7 @@ public class Client {
 		do {
 			context.goNext();
 			System.out.println(context.getState());
-			System.out.println("Enter '-'?");
+			System.out.println("Enter '-'??");
 		}while(!keyboard.next().equals("."));
 		System.out.println("bye!");
 	}
