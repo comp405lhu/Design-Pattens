@@ -25,8 +25,6 @@ public class CircleSpecs {
 		String str ="";
 		int i = 0;
 		while (i < 2) {
-			
-			
 			str += i;
 			i++;
 		}
