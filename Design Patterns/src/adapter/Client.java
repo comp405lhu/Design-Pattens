@@ -9,5 +9,7 @@ public class Client {
 		circle.display(10, 10, 100, 100);
 		rectangle.display(10, 10, 100, 100);
 	}
+	
+	//Hello World
 
 }
